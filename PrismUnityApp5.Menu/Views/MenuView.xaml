@@ -1,0 +1,12 @@
+﻿<UserControl x:Class="PrismUnityApp5.Menu.Views.MenuView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:prism="http://prismlibrary.com/"             
+             prism:ViewModelLocator.AutoWireViewModel="True">
+    <StackPanel Orientation="Horizontal">
+        <Button Content="Sample1" Command="{Binding Sample1Command}"/>
+        <Button Content="Sample2" Command="{Binding Sample2Command}"/>
+        <Button Content="Sample3" Command="{Binding Sample3Command}"/>
+        <Button Content="Sample4" Command="{Binding Sample4Command}"/>
+    </StackPanel>
+</UserControl>

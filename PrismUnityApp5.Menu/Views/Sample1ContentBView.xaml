@@ -1,0 +1,17 @@
+﻿<UserControl x:Class="PrismUnityApp5.Menu.Views.Sample1ContentBView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:prism="http://prismlibrary.com/"             
+             prism:ViewModelLocator.AutoWireViewModel="True">
+    <Button Height="43.366" Width="52.153" RenderTransformOrigin="0.467,0.531" >
+        <Button.RenderTransform>
+            <TransformGroup>
+                <ScaleTransform/>
+                <SkewTransform AngleY="-25.238"/>
+                <RotateTransform Angle="35.641"/>
+                <TranslateTransform Y="-6.58" X="-0.98"/>
+            </TransformGroup>
+        </Button.RenderTransform>
+        <TextBlock Text="{Binding ContentText}"/>
+    </Button>
+</UserControl>
